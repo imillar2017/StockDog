@@ -21,6 +21,7 @@ angular.module('stockDog1App')
 
         // [4] Display addlist modal
 		// I'm chaning some things and adding a file
+		// poppin' blunts!
         $scope.showModal = function () {
           addListModal.$promise.then(addListModal.show);
         };
