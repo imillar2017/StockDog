@@ -20,6 +20,7 @@ angular.module('stockDog1App')
         $scope.watchlists = WatchlistService.query();
 
         // [4] Display addlist modal
+		// cool code for pushing to git
         $scope.showModal = function () {
           addListModal.$promise.then(addListModal.show);
         };
